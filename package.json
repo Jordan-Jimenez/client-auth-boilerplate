@@ -1,8 +1,13 @@
 {
   "name": "client-auth-boilerplate",
+  "files": [
+    "dist/**/*"
+  ],
+  "typings": "dist/index.d.ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "scripts": {
     "test": "exit 0"
   },
@@ -12,10 +17,18 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jordan-Jimenez/client-auth-boilerplate/issues"
+  "devDependencies": {
+    "@types/node": "^16.3.1",
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "@types/styled-components": "^5.1.11",
+    "typescript": "^4.3.5"
   },
-  "homepage": "https://github.com/Jordan-Jimenez/client-auth-boilerplate#readme",
+  "peerDependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "styled-components": "^4.4.0"
+  },
   "publishConfig": {
     "@Jordan-Jimenez:registry": "https://npm.pkg.github.com"
   }
