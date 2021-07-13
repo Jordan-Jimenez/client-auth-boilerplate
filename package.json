@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Jordan-Jimenez/client-auth-boilerplate/issues"
   },
-  "homepage": "https://github.com/Jordan-Jimenez/client-auth-boilerplate#readme"
+  "homepage": "https://github.com/Jordan-Jimenez/client-auth-boilerplate#readme",
+  "publishConfig": {
+    "@Jordan-Jimenez:registry": "https://npm.pkg.github.com"
+  }
 }
