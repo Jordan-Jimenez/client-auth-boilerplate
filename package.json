@@ -1,5 +1,5 @@
 {
-  "name": "client-auth-boilerplate",
+  "name": "@jordan-jimenez/client-auth-boilerplate",
   "files": [
     "dist/**/*"
   ],
@@ -12,10 +12,7 @@
     "build": "rollup -c",
     "build-watch": "rollup -c -w"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jordan-Jimenez/client-auth-boilerplate.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -33,9 +30,6 @@
     "react-dom": "^16.10.2",
     "styled-components": "^4.4.0"
   },
-  "publishConfig": {
-    "@Jordan-Jimenez:registry": "https://npm.pkg.github.com"
-  },
   "dependencies": {
     "@apollo/client": "^3.3.21",
     "@types/js-cookie": "^2.2.7",
@@ -43,5 +37,8 @@
     "js-cookie": "^2.2.1",
     "mobx": "^6.3.2",
     "mobx-react-lite": "^3.2.0"
+  },
+  "publishConfig": {
+    "@Jordan-Jimenez:registry": "https://npm.pkg.github.com"
   }
 }
